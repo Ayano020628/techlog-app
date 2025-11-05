@@ -1,4 +1,4 @@
-require: rubocop-rails
+plugins: rubocop-rails
 
 AllCops:
   # 除外するディレクトリ（自動生成されるファイル）
@@ -81,3 +81,7 @@ Style/FrozenStringLiteralComment:
 # メソッドパラメータ名の最小文字数を設定
 Naming/MethodParameterName:
   MinNameLength: 1
+
+# Windowsの改行コードを変更 
+Style/EndOfLine: 
+  EnforcedStyle: lf
